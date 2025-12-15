@@ -168,3 +168,4 @@ class IPCManager:
 
     def get_channel_impl(self, channel_id: int) -> Any | None:
         return self._channels_impl.get(channel_id)
+# IPC manager supports extensible communication mechanisms
